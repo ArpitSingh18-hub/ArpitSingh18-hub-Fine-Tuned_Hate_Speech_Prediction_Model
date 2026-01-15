@@ -1,22 +1,21 @@
-# Python
-__pycache__/
-*.pyc
-
-# Virtual env
+# Virtual environments
 venv/
+env/
+.venv/
 
-# Data artifacts
-data/tokenized/
-data/processed/
-
-# Model weights & checkpoints
-models/muril_hate_model/
-models/muril_hate_model_v2/
+# Large / unnecessary folders
+dataset/
 training_output/
 training_output_v2/
+eda/
+streamlit_deploy_app/
 
-# Logs
-logs/
+# Python cache & logs
+__pycache__/
+*.log
+*.pyc
 
-# Env
-.env
+# OS files
+.DS_Store
+Thumbs.db
+
