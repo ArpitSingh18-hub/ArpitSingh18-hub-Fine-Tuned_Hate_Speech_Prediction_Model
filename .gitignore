@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Data artifacts
+data/tokenized/
+data/processed/
+
+# Model weights & checkpoints
+models/muril_hate_model/
+models/muril_hate_model_v2/
+training_output/
+training_output_v2/
+
+# Logs
+logs/
+
+# Env
+.env
